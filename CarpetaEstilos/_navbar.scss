@@ -1,0 +1,30 @@
+.navegacion{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-weight: bold;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 1rem
+}
+nav{
+    grid-area: nav;
+    background-color: rgb(255, 104, 187);
+}
+.collapse-navbar-collapse {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-item {
+    background-color: map-get($estilos, colorSecundario);
+    color: map-get($estilos, colorTextoOscuro);
+    padding: map-get($estilos, paddingDefault);
+    border: none;
+    border-radius: map-get($estilos, borderRadius);
+}
+
+

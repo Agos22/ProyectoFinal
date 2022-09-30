@@ -1,0 +1,28 @@
+$estilos: (
+  colorPrimario: #ff67ff,
+  colorSecundario: #f4ffd6,
+  colorTextoClaro: #fff,
+  colorTextoOscuro: #222,
+  paddingDefault: 10px,
+  borderRadius: 05px
+);
+  
+.boton {
+    background-color: map-get($estilos, colorPrimario);
+    color: map-get($estilos, colorTextoClaro);
+    padding: map-get($estilos, paddingDefault);
+}
+
+.boton-navegacion {
+    background-color: rgb(255, 124, 200);
+    color: map-get rgb(0, 0, 0);
+    padding: map-get($estilos, paddingDefault);
+    border: none;
+    border-radius: map-get($estilos, borderRadius);
+}
+.logo {
+  justify-content:center;
+}
+.logo-modelo {
+  justify-content:center;
+}

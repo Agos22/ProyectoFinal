@@ -1,0 +1,22 @@
+%boton-default {
+    border: none;
+    padding: 10px;
+    border-radius: 05px;
+  }
+  
+.boton {
+    background-color: rgb(252, 46, 224);
+    color: rgb(255, 103, 222);
+    border: none;
+    padding: 10px;
+    border-radius: 05px;
+  }
+  
+.boton {
+    @extend .boton;
+    background-color: rgb(255, 173, 214);
+  }
+  
+.boton-navegacion {
+    @extend %boton-default;
+  }

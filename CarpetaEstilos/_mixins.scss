@@ -1,0 +1,17 @@
+@mixin botones($color) {
+    background-color: $color;
+    border: none;
+    padding: 10px;
+    border-radius: 05px;
+  }
+  .boton {
+    background-color: map-get($estilos, colorSecundario);
+    color: map-get($estilos, colorTextoOscuro);
+    padding: map-get($estilos, paddingDefault);
+    border: none;
+    border-radius: map-get($estilos, borderRadius);
+  }
+  .collapse-navbar-collapse {
+    @include botones(rgb(14, 3, 10));
+    color: rgb(255, 155, 233);
+  }

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.contenedor-index {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 20cm 5cm;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
